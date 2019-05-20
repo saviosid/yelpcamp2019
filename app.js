@@ -15,10 +15,11 @@ const commentRoutes = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes = require("./routes/index");
 
-mongoose.connect("mongodb://localhost:27017/yelpcamp", {
-    useNewUrlParser: true
-});
-/*mongoose.connect(
+//mongoose.connect("mongodb://localhost:27017/yelpcamp", {
+//    useNewUrlParser: true
+// });
+
+mongoose.connect(
     "mongodb://default:default1234@ds137003.mlab.com:37003/saviosdb"
 ); // MLab URK */
 

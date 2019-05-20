@@ -63,7 +63,7 @@ app.use(indexRoutes);
 
 const port = process.env.PORT || 3000;
 let ip = process.env.IP || "127.0.0.1";
-
+// to run on local change process.env to actual port and ip to 127.0.0.1
 app.listen(process.env.PORT, process.env.IP, () =>
     console.log(`Yelpcamp Server started on port ${port} ip ${ip}`)
 );
